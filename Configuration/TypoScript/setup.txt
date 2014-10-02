@@ -1,0 +1,7 @@
+plugin.tx_trbpiportfolio {
+	view {
+		templateRootPath = {$plugin.tx_trbpiportfolio.view.templateRootPath}
+		partialRootPath = {$plugin.tx_trbpiportfolio.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_trbpiportfolio.view.layoutRootPath}
+	}
+}

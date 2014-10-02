@@ -1,0 +1,5 @@
+{namespace trb = TRB\TrbBasicsViewhelper\ViewHelpers}
+<f:if condition="{settings.list_filter}">
+	<f:render partial="Portfolio/List/Filter" arguments="{_all}" />
+</f:if>
+<trb:render partial="Portfolio/List/{settings.list_layout}" arguments="{_all}" fallback="Portfolio/List/default" />

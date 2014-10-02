@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-05-31T12:31:59Z" product-name="trb_pi_portfolio">
+		<header/>
+		<body>
+			<!-- Portfolio -->
+			<trans-unit id="portfolio"><source>Portfolio</source></trans-unit>
+			<trans-unit id="portfolio.title"><source>Title</source></trans-unit>
+			<trans-unit id="portfolio.description"><source>Description</source></trans-unit>
+			<trans-unit id="portfolio.datereleased"><source>Datereleased</source></trans-unit>
+			<trans-unit id="portfolio.url"><source>URL</source></trans-unit>
+			<trans-unit id="portfolio.logo"><source>Logo</source></trans-unit>
+			<trans-unit id="portfolio.images"><source>Images</source></trans-unit>
+			<trans-unit id="portfolio.category"><source>Categories</source></trans-unit>
+			
+			<!-- Flexform -->
+			<trans-unit id="flex.options"><source>Options</source></trans-unit>
+			<trans-unit id="flex.mode"><source>Mode</source></trans-unit>
+			<trans-unit id="flex.list"><source>List</source></trans-unit>
+			<trans-unit id="flex.slider"><source>Slider</source></trans-unit>
+			<trans-unit id="flex.detail"><source>Detail</source></trans-unit>
+			<trans-unit id="flex.storage_page"><source>Storage page</source></trans-unit>
+			<trans-unit id="flex.detail_page"><source>Detail page</source></trans-unit>
+			<trans-unit id="flex.back_page"><source>Back page</source></trans-unit>
+			<trans-unit id="flex.show_filter"><source>Show filter</source></trans-unit>
+			<trans-unit id="flex.show_navigation"><source>Show navigation</source></trans-unit>
+			<trans-unit id="flex.layout"><source>Layout</source></trans-unit>
+			<trans-unit id="flex.layout.default"><source>Default</source></trans-unit>
+		</body>
+	</file>
+</xliff>
+

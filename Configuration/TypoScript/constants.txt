@@ -1,0 +1,14 @@
+# customsubcategory=trb_pi_portfolio=Portfolio
+
+plugin.tx_trbpiportfolio {
+	view {
+		# cat=TRB Common: Paths/trb_pi_portfolio/10; type=string; label=Templates Root Path;
+		templateRootPath = EXT:trb_pi_portfolio/Resources/Private/Templates/
+
+		# cat=TRB Common: Paths/trb_pi_portfolio/20; type=string; label=Partials Root Path;
+		partialRootPath = EXT:trb_pi_portfolio/Resources/Private/Partials/
+
+		# cat=TRB Common: Paths/trb_pi_portfolio/30; type=string; label=Layouts Root Path;
+		layoutRootPath = EXT:trb_pi_portfolio/Resources/Private/Layouts/		
+	}
+}

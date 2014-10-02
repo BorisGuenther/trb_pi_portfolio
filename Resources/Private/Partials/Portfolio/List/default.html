@@ -1,0 +1,23 @@
+{namespace trb = TRB\TrbBasicsViewhelper\ViewHelpers}
+<div class="row">
+	<f:for each="{portfolios}" as="portfolio">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<f:image src="{portfolio.logo.originalResource.publicUrl}" width="800" maxHeight="600" />
+				<div class="caption">
+					<h3><f:format.raw>{portfolio.title}</f:format.raw></h3>
+					<f:if condition="{settings.pid_detail}">
+						<f:then>
+							<p><f:link.action pageUid="{settings.pid_detail}" action="detail" arguments="{portfolio : portfolio}" class="btn btn-primary"><f:translate key="more" /></f:link.action></p>
+						</f:then>
+						<f:else>
+							<f:if condition="{portfolio.url}">
+								<f:link.external uri="{portfolio.url}" target="_new" class="btn btn-primary"><f:translate key="more" /></f:link.external>
+							</f:if>
+						</f:else>
+					</f:if>
+				</div>
+			</div>
+		</div>
+	</f:for>
+</div>

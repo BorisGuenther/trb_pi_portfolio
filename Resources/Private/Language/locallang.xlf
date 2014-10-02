@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-05-31T12:31:59Z" product-name="trb_pi_portfolio">
+		<header/>
+		<body>
+			<!-- Portfolio -->
+			<trans-unit id="more"><source>More</source></trans-unit>
+			<trans-unit id="facts"><source>Facts</source></trans-unit>
+			<trans-unit id="category"><source>Category</source></trans-unit>
+			<trans-unit id="datereleased"><source>Date released</source></trans-unit>
+			<trans-unit id="back_to_list"><source>Back to list</source></trans-unit>
+			<trans-unit id="dateformat.detail"><source>F d, Y</source></trans-unit>
+		</body>
+	</file>
+</xliff>

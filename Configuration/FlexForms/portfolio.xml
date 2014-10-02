@@ -1,0 +1,197 @@
+<T3DataStructure>
+	<sheets>
+		<!-- General -->
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.options</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<switchableControllerActions>
+						<TCEforms>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.mode</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.list</numIndex>
+										<numIndex index="1">Portfolio->list;Portfolio->detail</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.slider</numIndex>
+										<numIndex index="1">Portfolio->slider;Portfolio->detail</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.detail</numIndex>
+										<numIndex index="1">Portfolio->detail</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</switchableControllerActions>
+					
+					<persistence.storagePid>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.storage_page</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>3</size>
+								<maxitems>50</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+								<wizards>
+									<suggest>
+										<type>suggest</type>
+									</suggest>
+								</wizards>
+							</config>
+						</TCEforms>
+					</persistence.storagePid>
+				</el>
+			</ROOT>
+		</sDEF>
+
+		<!-- LIST -->
+		<list>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.list</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.list_layout>
+						<TCEforms>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.layout</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.layout.default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.list_layout>
+				
+					<settings.list_filter>
+						<TCEforms>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.show_filter</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.list_filter>
+				</el>
+			</ROOT>
+		</list>
+
+		<!-- SLIDER -->
+		<slider>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.slider</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.slider_layout>
+						<TCEforms>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.layout</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.layout.default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.slider_layout>
+					
+					<settings.slider_nav>
+						<TCEforms>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.show_navigation</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.slider_nav>
+				</el>
+			</ROOT>
+		</slider>
+
+		<!-- DETAIL -->
+		<detail>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.detail</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.detail_layout>
+						<TCEforms>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.layout</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.layout.default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.detail_layout>
+					
+					<settings.pid_detail>
+						<TCEforms>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.detail_page</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+								<wizards>
+									<suggest>
+										<type>suggest</type>
+									</suggest>
+								</wizards>
+							</config>
+						</TCEforms>
+					</settings.pid_detail>
+					
+					<settings.pid_back>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:trb_pi_portfolio/Resources/Private/Language/locallang_db.xlf:flex.back_page</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+								<wizards>
+									<suggest>
+										<type>suggest</type>
+									</suggest>
+								</wizards>
+							</config>
+						</TCEforms>
+					</settings.pid_back>
+				</el>
+			</ROOT>
+		</detail>
+
+	</sheets>
+</T3DataStructure>

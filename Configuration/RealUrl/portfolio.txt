@@ -1,0 +1,14 @@
+'portfolio' => array(
+	'0' => array(
+		'GETvar' => 'tx_trbpiportfolio_portfolio[controller]',
+		'valueMap' => array(
+			'portfolio' => 'Portfolio',
+		),
+	),
+	'1' => array(
+		'GETvar' => 'tx_trbpiportfolio_portfolio[action]',
+	),
+	'2' => array(
+		'GETvar' => 'tx_trbpiportfolio_portfolio[portfolio]',
+	),
+),
